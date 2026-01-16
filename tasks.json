@@ -1,0 +1,14 @@
+[
+  {
+    "command": "sleep 10",
+    "urgency": "low",
+    "deadline_hours": 24,
+    "submitted_at": 1730822400
+  },
+  {
+    "command": "echo High priority task",
+    "urgency": "high",
+    "deadline_hours": 1,
+    "submitted_at": 1730822400
+  }
+]
