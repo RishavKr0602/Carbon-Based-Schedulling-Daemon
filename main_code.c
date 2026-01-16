@@ -15,6 +15,7 @@
 #include <pthread.h>
 #include <microhttpd.h>
 
+
 #define LOG_FILE "/tmp/scheduler.log"
 #define PID_FILE "/var/run/green_scheduler.pid"
 #define CARBON_API_URL "http://127.0.0.1:5000/intensity"

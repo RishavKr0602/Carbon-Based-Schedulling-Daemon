@@ -7,6 +7,7 @@ from matplotlib.animation import FuncAnimation
 
 LOG_PATH = "/tmp/scheduler.log"
 
+
 def parse_log_to_dataframe():
     data = []
     if not os.path.exists(LOG_PATH):
@@ -41,6 +42,7 @@ fig = plt.figure(figsize=(15, 10))
 plt.subplots_adjust(hspace=0.4, wspace=0.3)
 fig.suptitle("🌿 Green Scheduler Live Analytics Dashboard", fontsize=16, fontweight="bold")
 
+print("")
 # Axes grid: 3 rows x 2 cols
 ax_emission   = plt.subplot2grid((3,2),(0,0))
 ax_delay_time = plt.subplot2grid((3,2),(0,1))
